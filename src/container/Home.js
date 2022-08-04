@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function Home(props) {
     return (
         <div>
             <section id="hero" className="d-flex align-items-center">
@@ -263,6 +263,7 @@ function Home() {
                 </section>
             </main>
         </div>
+
 
     );
 }
